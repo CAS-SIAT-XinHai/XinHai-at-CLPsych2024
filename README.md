@@ -2,6 +2,14 @@
 # XinHai at CLPsych2024
 Our code for CLPsych 2024 Shared Task Utilising LLMs: Finding supporting evidence about an individual’s suicide risk level
 
+## TODO
+
+- [ ] 用归因的方法来进一步判断句子对结果的影响程度
+
+- [ ] 用传统方法来协助抽取evidence
+
+- [ ] 进一步提升模型对于prompt的遵循，确保严格输出格式
+
 
 Acknowledgement
 ---------------
