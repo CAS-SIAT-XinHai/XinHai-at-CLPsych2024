@@ -20,7 +20,7 @@ If you use XinHai at CLPsych2024 in your research, please cite our work using th
 
 ```bibtex
 @inproceedings{xinhai-clpsych2024,
-  title={XinHai@CLPsych 2024 Shared Task: Prompting Healthcare-oriented LLMs for Evidence Highlighting in Posts with Suicide Risk},
+  title={{XinHai@CLPsych 2024 Shared Task: Prompting Healthcare-oriented LLMs for Evidence Highlighting in Posts with Suicide Risk}},
   author={Jingwei Zhu and Ancheng Xu and Minghuan Tan and Min Yang},
   booktitle={Proceedings of the CLPsych 2024 Shared Task},
   year={2024}
