@@ -72,7 +72,7 @@ def find_most_similar_words_spacy(
 def create_regex_pattern(target_phrase):
     # 将目标短语分解为单词并为每个单词创建一个正则表达式模式
     words = target_phrase.split()
-    pattern_words = [re.escape(word) for word inwe words]  # 使用 re.escape 避免特殊字符问题
+    pattern_words = [re.escape(word) for word in words]  # 使用 re.escape 避免特殊字符问题
     # 用可变长度的空白字符连接每个单词
     regex_pattern = r'\s*'.join(pattern_words)
     return regex_pattern
