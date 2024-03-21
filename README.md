@@ -19,11 +19,29 @@ cd XinHai-at-CLPsych2024/src
 If you use XinHai at CLPsych2024 in your research, please cite our work using the following BibTeX entry:
 
 ```bibtex
-@inproceedings{xinhai-clpsych2024,
-  title={{XinHai@CLPsych 2024 Shared Task: Prompting Healthcare-oriented LLMs for Evidence Highlighting in Posts with Suicide Risk}},
-  author={Jingwei Zhu and Ancheng Xu and Minghuan Tan and Min Yang},
-  booktitle={Proceedings of the CLPsych 2024 Shared Task},
-  year={2024}
+@inproceedings{zhu-etal-2024-xinhai,
+    title = "{X}in{H}ai@{CLP}sych 2024 Shared Task: Prompting Healthcare-oriented {LLM}s for Evidence Highlighting in Posts with Suicide Risk",
+    author = "Zhu, Jingwei  and
+      Xu, Ancheng  and
+      Tan, Minghuan  and
+      Yang, Min",
+    editor = "Yates, Andrew  and
+      Desmet, Bart  and
+      Prud{'}hommeaux, Emily  and
+      Zirikly, Ayah  and
+      Bedrick, Steven  and
+      MacAvaney, Sean  and
+      Bar, Kfir  and
+      Ireland, Molly  and
+      Ophir, Yaakov",
+    booktitle = "Proceedings of the 9th Workshop on Computational Linguistics and Clinical Psychology (CLPsych 2024)",
+    month = mar,
+    year = "2024",
+    address = "St. Julians, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.clpsych-1.23",
+    pages = "238--246",
+    abstract = "In this article, we introduce a new method for analyzing and summarizing posts from r/SuicideWatch on Reddit, overcoming the limitations of current techniques in processing complex mental health discussions online. Existing methods often struggle to accurately identify and contextualize subtle expressions of mental health problems, leading to inadequate support and intervention strategies. Our approach combines the open-source Large Language Model (LLM), fine-tuned with health-oriented knowledge, to effectively process Reddit posts. We also design prompts that focus on suicide-related statements, extracting key statements, and generating concise summaries that capture the core aspects of the discussions. The preliminary results indicate that our method improves the understanding of online suicide-related posts compared to existing methodologies.",
 }
 ```
 
